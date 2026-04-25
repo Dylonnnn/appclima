@@ -21,18 +21,18 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.dylon.MiClimaApp"
+      "package": "com.dylon.MiClimaApp",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-sqlite"
-    ],
     "extra": {
-      "eas": {
-        "projectId": "09b85d4a-46a1-4bb1-8cbf-2b8f871bffe5"
-      }
+      "WEATHER_API_KEY": "tu_api_key_aqui"
     }
   }
 }
